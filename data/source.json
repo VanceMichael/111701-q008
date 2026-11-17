@@ -1,0 +1,8 @@
+{
+  "source": "sample-8",
+  "observedAt": "2026-11-17T08:00:00.000Z",
+  "items": [
+    {"id": "8-A", "label": "品牌售后政策样例甲", "state": "active", "revision": 1},
+    {"id": "8-B", "label": "品牌售后政策样例乙", "state": "pending", "revision": 1}
+  ]
+}
