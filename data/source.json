@@ -1,8 +1,34 @@
 {
-  "source": "sample-8",
+  "source": "brand-site",
   "observedAt": "2026-11-17T08:00:00.000Z",
   "items": [
-    {"id": "8-A", "label": "品牌售后政策样例甲", "state": "active", "revision": 1},
-    {"id": "8-B", "label": "品牌售后政策样例乙", "state": "pending", "revision": 1}
+    {
+      "policyId": "returns",
+      "version": "2026-01",
+      "label": "退货政策（2026 年 1 月版）",
+      "state": "active",
+      "effectiveAt": "2026-01-01T00:00:00.000Z",
+      "content": "自签收之日起 7 天内可无理由退货，运费由买家承担。",
+      "revision": 1
+    },
+    {
+      "policyId": "returns",
+      "version": "2026-12",
+      "label": "退货政策（2026 年 12 月版）",
+      "state": "published",
+      "effectiveAt": "2026-12-01T00:00:00.000Z",
+      "content": "自签收之日起 15 天内可无理由退货；已拆封商品按 80% 折价退款。",
+      "revision": 1
+    },
+    {
+      "policyId": "exchanges",
+      "version": "2026-01",
+      "label": "换货政策（2026 年 1 月版）",
+      "state": "active",
+      "effectiveAt": "2026-01-01T00:00:00.000Z",
+      "effectiveUntil": "2026-12-01T00:00:00.000Z",
+      "content": "签收后 30 天内可免费换货一次。",
+      "revision": 1
+    }
   ]
 }
